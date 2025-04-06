@@ -18,6 +18,7 @@
         justify-content: space-between;
         height: 80px;
         padding: 0 50px
+        
     }
 
     .navber h2 {
@@ -74,7 +75,7 @@
 .main img{
     height: 200px;
     width: 200px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .main {
@@ -115,7 +116,7 @@
 
 
 .guarantee{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding :0 20px;
     display: flex;
     flex-wrap: nowrap;
@@ -124,7 +125,7 @@
 }   
 
 .guarantee .item{
-    background-color:white;
+    background-color:#5F96AA;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -142,10 +143,11 @@
 
 
 .guarantee .item h3{
+    color: white;
     font-size:30px;
-    color: blue;
    margin-bottom: 0px;
    margin-top: 30px;
+
 }
 
 .guarantee .item p{
@@ -157,4 +159,60 @@
 .guarantee .item:hover{
     transform:translateY(-5px);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    justify-self:space-between;
+
+}
+
+.guarantee .item .icon{
+    width:46px;
+    height:46px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    
+
+}
+
+
+.guarantee .item:hover .icon{
+    background-color: orange;
+
+}
+
+
+.guarantee .item .icon i{
+    font-size: 24px;
+    color: black;
+
+}
+
+
+.guarantee .item .info{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+.guarantee .item .info h3{
+    color: orange;
+    font-size: 28px;
+
+}
+
+
+.guarantee .item .info p{
+    color:white;
+    font-size:15px;
+    font-weight:600;
+}
+
+
+.guarantee .item .i{
+    color: white;
+    font-size: 30px;
+    transition: color 0.3s ease;
 }
